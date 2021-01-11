@@ -9,7 +9,7 @@ var burger = {
   },
 
   create: function(cols, vals, cb) {
-    orm.create("burgerss", cols, vals, function(res) {
+    orm.create("burgers", cols, vals, function(res) {
       cb(res);
     });
   },
