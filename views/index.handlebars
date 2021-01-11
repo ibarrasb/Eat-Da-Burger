@@ -1,5 +1,7 @@
 <h1>Burgers!</h1>
+<div class="menu">
 
+  <div class="items">
 <h2>Burgers that arent eaten!</h2>
 
 <ul>
@@ -9,8 +11,10 @@
     {{/unless}}
   {{/each}}
 </ul>
+</div>
+<div class="items">
+    <h2>Burgers that are eaten!</h2>
 
-<h2>Burgers that are eaten!</h2>
 
 <ul>
   {{#each burgers}}
@@ -19,7 +23,8 @@
     {{/if}}
   {{/each}}
 </ul>
-
+              </div>
+        </div>
 <h2>Add a Burger</h2>
 <form class="create-form">
 

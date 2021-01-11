@@ -1,7 +1,15 @@
+body{
+  background-color: silver;
+  text-align: center;
+}
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background: #f3ede4;
+  }
+
+  ul{
+    list-style-type: none;
   }
   
   .label {
@@ -16,4 +24,16 @@ li {
   
   .form-group {
     margin-bottom: 5px;
+  }
+
+  .menu{
+    display: inline-block;
+    border-radius: 10%;
+    background-color: wheat;
+    width: 80%;
+    border-style: inset;
+  }
+
+  .items{
+    display: inline-grid;
   }
