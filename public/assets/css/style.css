@@ -1,5 +1,5 @@
 body{
-  background-color: silver;
+  background-color: khaki;
   text-align: center;
 }
 li {
@@ -29,11 +29,16 @@ li {
   .menu{
     display: inline-block;
     border-radius: 10%;
-    background-color: wheat;
+    background-color: cornsilk;
     width: 80%;
     border-style: inset;
   }
 
   .items{
     display: inline-grid;
+  }
+
+  img{
+    height: 200px;
+    padding: 10px;
   }
