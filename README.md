@@ -1,7 +1,7 @@
 
 <h1 align="center">Da Burger</h1>
 
-![Screenshot of the full size layout](./images/eat-db.png)
+![Screenshot of the full size layout](./images/eatdb.png)
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Description
