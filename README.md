@@ -3,6 +3,8 @@
 
 ![Screenshot of the full size layout](./images/eatdb.png)
 
+Click to [deploy](https://da-burger-db.herokuapp.com).
+
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Description
 🔍 Burger Logger created using mySQl, Node, Express, Handlebars and also features Object-relational mapping. App is hosted by Heroku, and using JAWSDB to help create a connection with mySQL. 
