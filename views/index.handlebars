@@ -1,11 +1,11 @@
-<h1>Burgers!</h1>
+<h1>DaBurgers</h1>
 <img src="https://freesvg.org/img/Gerald_G_Fast_Food_Lunch_Dinner_%28FF_Menu%29_6.png" alt="burger">
   
 </object>
 <div class="menu">
 
   <div class="items">
-<h2>Burgers that arent eaten!</h2>
+<h2>Ordered: </h2>
 
 <ul>
   {{#each burgers}}
@@ -16,7 +16,7 @@
 </ul>
 </div>
 <div class="items">
-    <h2>Burgers that are eaten!</h2>
+    <h2>Devoured: </h2>
 
 
 <ul>
@@ -28,20 +28,17 @@
 </ul>
               </div>
         </div>
-<h2>Add a Burger</h2>
-<form class="create-form">
 
+<form class="create-form" id="add-burger">
+<h2>Burger Name: </h2>
   <div class="form-group">
-    <label for="ca">Burger Name:</label>
     <input type="text" id="ca" name="name">
   </div>
-
   <div class="form-group">
-    <label for="devoured">eaten?</label><br>
-    <input type="radio" name="devoured" value="1" checked> Eaten<br>
-    <input type="radio" name="devoured" value="0"> Not
+    <label for="devoured">Have you ate it?</label><br>
+    <input type="radio" name="devoured" value="1" checked> Yes<br>
+    <input type="radio" name="devoured" value="0">No<Noframes></Noframes>
   </div>
+  <button type="submit">Add</button>
 
-
-  <button type="submit">Add Burger</button>
 </form>

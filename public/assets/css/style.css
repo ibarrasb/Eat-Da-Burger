@@ -42,3 +42,7 @@ li {
     height: 200px;
     padding: 10px;
   }
+
+  #add-burger{
+    text-align: center;
+  }
